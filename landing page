@@ -1,0 +1,138 @@
+this is a landing page of my graphics design website 
+
+this is code for the website
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="landing.css" />
+    <title>Dhyey's Landing Page</title>
+  </head>
+  <body>
+    <header class="BEAST">
+      <h1>UNIQUE CREATION</h1>
+      <nav>
+        <ul>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#top">Features</a></li>
+          <li><a href="#top">Contact</a></li>
+          <li><a href="#top">Help</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="BeAsT">
+      <h2>WELCOME TO EXPLORE UNIQUE CREATION </h2>
+      <p>Design your graphics for free</p>
+      <a href="#" class="cta-button">Get Started</a>
+    </section>
+
+    <footer class="beast">
+      <p>
+        &copy; 2024 Unique Creation. All rights reserved.<br />
+        <li><a href="#top"> Support | Privacy | Term of Use | License</a></li>
+      </p>
+    </footer>
+  </body>
+</html>
+
+************************************************************************
+
+
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: rgba(110, 190, 255, 0.733);
+  color: #fff;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+.BEAST a {
+    color: #030930;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color:#f1ff75;
+    border-radius: 5px;
+    
+  }
+
+
+/* BeAsT section styles */
+.BeAsT {
+  background-image: url("OIP.jpeg");
+  background-size: cover;
+  text-align: center;
+  padding: 140px 0;
+  color: #fff;
+}
+
+.BeAsT h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.BeAsT p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Footer styles */
+.beast {
+  background-color: #009696;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  
+}
+
+.beast a {
+  color: white;
+  text-decoration: none;
+  
+}
